@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Language Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="translator-container">
+
+    <h1>Language Translator</h1>
+
+    <!-- Translator Form -->
+    <form id="translate-form">
+
+      <label>From:</label>
+      <select id="from-lang"></select>
+
+      <label>To:</label>
+      <select id="to-lang"></select>
+
+      <label>Text to Translate:</label>
+      <textarea id="input-text" placeholder="Type text here..."></textarea>
+
+      <button type="submit">Translate</button>
+    </form>
+
+    <h2>Translated Text:</h2>
+    <div id="translated-output">Translation will appear here...</div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
